@@ -102,11 +102,12 @@ header {
 }
 
 .article1 p{
-    font-size: 25px;
+    font-size: 20px;
     margin: 30px 0;
     height: 220px;
     width: 405px;
     margin-left: 0%;
+    line-height: 1.2;
     
    
 }
@@ -146,11 +147,8 @@ footer a {
 .section {
     background-color: rgb(233, 186, 219);
     width: 100%;
-    
-    
-}
+    }
 
 .one {
-    margin-left: 50px;
-  
-}
+    margin-left: 60px;
+  }
