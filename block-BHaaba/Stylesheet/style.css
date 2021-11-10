@@ -145,10 +145,17 @@ footer a {
 }
 
 .section {
-    background-color: rgb(233, 186, 219);
-    width: 100%;
+    background-color: darksalmon;
+    width: 90%;
+    margin: 0 auto;
     }
 
 .one {
     margin-left: 60px;
-  }
+}
+
+.section1 {
+    background-color: darksalmon;
+}
+
+  
