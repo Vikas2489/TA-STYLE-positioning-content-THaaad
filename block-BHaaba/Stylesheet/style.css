@@ -48,7 +48,8 @@ table {
 }
 
 /* custom styles */
-* {
+*::after,
+*::before {
     box-sizing: border-box;
 }
 
@@ -91,14 +92,13 @@ header {
 .article1 {
     width: 29.6%; 
     float: left;
-    margin: 1.5%;
+    margin: 1.2%;
     
 }  
 
 
 .img2 {
-    height: 220px;
-    width: 405px;
+   width: 100%;
 }
 
 .article1 p{
