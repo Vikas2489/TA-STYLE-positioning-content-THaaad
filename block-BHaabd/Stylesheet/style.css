@@ -69,6 +69,12 @@ table {
  }
 
 /* custom styles */
+/* *,
+*::after,
+*::before{
+    box-sizing: border-box;
+} */
+
  body {
      background-color: rgb(235, 242, 247);
      line-height: 2;
