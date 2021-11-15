@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* HEADER */
+
+.header {
+    background-color: rgb(4, 5, 3);
+    position: fixed;
+    width: 100%;
+    line-height: 200pxx;
+    height: 200px;
+    }
+
+
+/* CUSTOM STYLES */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 25px;
+    }
+
+
+.brand {
+    float: left;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid rgb(226, 31, 31);
+  }
+
+.nav1 {
+    float: right;
+   margin-top: 71px;
+    }
+
+.nav1 a {
+    padding: 19px;
+    color: white;
+    font-size: 32px;
+    text-decoration: none;
+    font-family: 'Itim', cursive;
+}    
+
+.section1 {
+    margin-top: 220px;
+}
+
+.div1 {
+    width: 600px;
+    height: 680px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(7, 17, 46);
+    font-family: 'Mochiy Pop P One', sans-serif;
+    line-height: 1.3;
+    }
+
+.para1 {
+    font-size: 20px;
+    margin: 34px 0;
+    line-height: 1.5;
+    font-family: 'Itim', cursive;
+   }
+
+ .article1 {
+     padding: 20px;
+    
+ }  
+
+.article-img1 {
+    width: 600px;
+    height: 668px;
+    display: inline-block;
+    margin-left: 150px;
+    border-radius: 20px;
+}
+
+.article2 {
+    box-sizing: border-box; 
+    margin-left: 150px;
+    }
+
+.article2-img {
+    float:left;
+    height: 200px;
+    width: 25%;
+    padding: 20px;
+    object-fit: cover;
+    border-radius: 20%;
+    }
+
+.article3-img {
+    width: 25%;
+    float: left;
+    padding: 25px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 20%;
+   
+}
+
+.top {
+    font-size: 18px;
+    background-color: rgb(89, 219, 148);
+    color: white;
+    line-height: 50px;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    display: inline-block;
+    position: fixed;
+    right: 22px;
+    bottom: 5px;
+    text-transform: capitalize;
+    }
+
+
+
+footer {
+    background-color: rgb(4, 5, 3); 
+    height: 60px;
+   text-align: center;
+    width: 100%;
+}
+
+.links {
+     color: rgb(196, 50, 50);
+     font-size: 30px;
+     margin-left: 25px;
+     text-decoration: none;
+     font-family: 'Mochiy Pop P One', sans-serif;
+     line-height: 60px; 
+     }  
+
+
+
+/* clearfix technique */
+
+.clearfix::before, 
+.clearfix::after{
+    content: "";
+    display: table;
+}
+
+.clearfix::after{
+    clear: both;
+}

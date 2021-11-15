@@ -1,0 +1,263 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* clearfix */
+.clearfix::before, .clearfix::after 
+{
+    content: "";
+    display: table;
+}
+
+/* header */
+ 
+.header {
+    background-color: rgb(113, 163, 221);
+
+}
+
+
+
+/* custom styles */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    /* height: 2000px; */
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-top: 60px;
+  
+}
+
+
+
+.hero-title {
+    text-align: center;
+    color: white;
+    margin: 120px 0;
+    }
+.hero-title h1 {
+    font-size: 52px;
+}    
+
+.para1 { 
+     float: left;
+     color: white;
+     font-weight: bold;
+}
+
+.para2 {
+    color: rgb(231, 221, 221);
+    padding: 30px 0;
+    font-size: 14px;
+}
+
+.nav {
+    float:  right;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+/* main content */
+
+.section-1 
+{
+    background-color: #fff;
+    height: 450px;
+}
+
+.col {
+    width: 30%;
+    float: left;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.col1-2 {
+    margin-left: 5%;
+}
+
+.col .h2 { 
+    color: rgb(71, 132, 212);
+    line-height: 1.3;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+.col p {
+    color: rgb(150, 146, 146);
+    line-height: 1.5;
+}
+
+.more-link {
+    display: inline-block;
+    background-color: rgb(42, 136, 224);
+    padding: 10px;
+    margin: 20px 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* section-22 */
+
+.section-22 {
+    background-color: rgb(113, 163, 221);
+    height: 600px;
+}
+
+.section2-img {
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    
+}
+
+.section2-h2 {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(227, 227, 243);
+}
+
+.section2-para {
+     text-align: center;
+     font-size: 16px;
+     margin: 15px;
+    color: rgb(119, 114, 114)
+}
+
+.section33-h2 {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(113, 163, 221)
+}
+
+.pic1 {
+    width: 17%;
+    border: 2px solid grey;
+    text-align: center;
+    float: left;
+    margin: 4%;
+    }
+
+.section2-h3 {
+    margin: 5px 0;
+    color: #fff;
+}
+
+.section3-para {
+         color: #fff; 
+         margin-bottom: 40px;
+}
+
+
+.cols {
+    width: 48%;
+    margin: 1%;
+    float: left;
+}
+
+.cols h2 {
+    color: rgb(71, 132, 212);
+    line-height: 1.3;
+    margin: 15px 0;
+    font-size: 22px;
+    
+}
+
+.cols p {
+    color: rgb(150, 146, 146);
+    line-height: 1.5;   
+}
+
+.last-nav a {
+    font-size: 20px;
+}
+
+.section-33 {
+    height: 600px;
+    margin-bottom: 100px;
+}
+
+.lastnav {
+    float: right;
+}
+
+.lastnav a {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 30px 0;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+small {
+    margin: 30px 0;
+    display: inline-block;
+    color: rgb(148, 142, 142);
+}
+
+hr {
+    color: rgb(212, 209, 209);
+}
+
+.lastheader {
+    margin: 70px 0;
+}
