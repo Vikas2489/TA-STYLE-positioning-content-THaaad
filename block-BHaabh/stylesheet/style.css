@@ -233,11 +233,11 @@ body {
 
 .section-33 {
     height: 600px;
+    margin-bottom: 100px;
 }
 
 .lastnav {
     float: right;
-
 }
 
 .lastnav a {
@@ -256,4 +256,8 @@ small {
 
 hr {
     color: rgb(212, 209, 209);
+}
+
+.lastheader {
+    margin: 70px 0;
 }
